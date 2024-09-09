@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            div~p{
+                background-color: yellow;
+            }
+            a{
+                text-decoration: none;
+                color: brown;
+                background-color: chartreuse;
+            }
+            a:hover{
+                background-color: blue;
+            }
+            a:visited
+            {
+                color: yellow;
+            }
+            a:active
+            {
+                color:aqua ;
+            }
+            div ::first-line
+            {
+                background-color: plum;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">Home</a>
+        <div>
+            <p> Para 1 Inside div</p>
+            <p> Para 2 Inside div</p>
+            <section> <p> para 3 in section tag but inside div</p></section>
+        </div>
+        <p>Para 3 outside div and immediatly after div</p>
+        <p>para 4 </p>
+        <section> <p> para 5 in section outside div</p></section>
+        <p> para 6</p>
+    </body>
+</html>
